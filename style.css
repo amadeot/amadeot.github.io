@@ -1,5 +1,11 @@
+body{
+  background-color: light blue;
+}
+
 #my-picture{
-  max-height: 100px
+  max-height: 100vh;
+  position: absolute;
+  z-index: -100;
 }
 
 #dimmer {
@@ -21,6 +27,13 @@
   padding: 50px;
   border: 1px solid blue;
   background: grey;
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 60%;
+  overflow: auto;
+  padding: 5px;
+}
+
+.project-pic{
+  height: 50px;
+  width: 50px;
 }
