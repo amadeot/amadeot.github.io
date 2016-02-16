@@ -22,6 +22,8 @@ $(document).ready(function(){
   $('.close-modal').on('click', function(){
     hideModal()
   });
+  $('')
+  cycleBackgrounds()
 
 });
 

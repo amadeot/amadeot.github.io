@@ -1,8 +1,14 @@
-body{
-  background-color: light blue;
+#background{
+  top: 0;
+  left: 0;
+  position: absolute;
+  max-height: 100vh;
+  z-index: -1000;
+  overflow: hidden;
 }
 
 #my-picture{
+  top: 0;
   max-height: 100vh;
   position: absolute;
   z-index: -100;
@@ -37,3 +43,8 @@ body{
   height: 50px;
   width: 50px;
 }
+
+.button-container{
+  display: block;
+}
+
