@@ -22,8 +22,8 @@ $(document).ready(function(){
   $('.close-modal').on('click', function(){
     hideModal()
   });
-  $('')
-  cycleBackgrounds()
+  backgroundCounter = 1
+  setInterval(cycleBackgrounds, 5000)
 
 });
 
@@ -38,4 +38,13 @@ var showModal = function(modal){
 var hideModal = function(){
   $('#dimmer').fadeOut(500);
   $('.modal-window').fadeOut(500)
+}
+
+var cycleBackgrounds = function(){
+  if(backgroundCounter===3){
+    backgroundCounter = 1
+  } else{
+    backgroundCounter++
+  }
+  $('#background').attr('src', "./backgrounds/background"+backgroundCounter+".jpg")
 }
