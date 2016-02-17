@@ -21,7 +21,14 @@
 }
 
 .main-content{
-  text-indent: 50px
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  text-indent: 50px;
+  
+}
+
+.content-fill{
 }
 
 #dimmer {
