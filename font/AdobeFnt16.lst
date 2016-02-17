@@ -1,0 +1,27 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:IndustriaLTStd-Solid
+FamilyName:Industria LT Std
+StyleName:Solid
+MenuName:Industria LT Std Solid
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Industria LT Std Solid
+WritingScript:Roman
+OutlineFileName:\IndustriaLTStd-Solid.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:24624
+FileModTime:1052763478
+NameArray:0,Mac,4,Industria LT Std Solid
+NameArray:0,Win,1,Industria LT Std Solid
+NameArray:0,Win,16,Industria LT Std
+%EndFont
+

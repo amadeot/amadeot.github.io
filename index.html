@@ -19,32 +19,22 @@
         <img id="my-picture" class="animated slideInUp" src="Amie_02_S.png">
       </div>
       <div class="main-content animated slideInDown">
-        <h1>My name is Amadeo </h1>
-        <h3>I like to make websites.</h3>
-        <div class="icons">
-          <a target="_blank" href="https://github.com/amadeot">
-              <i class="fa fa-github fa-lg"></i>
-          </a>
-          <a target="_blank" href="https://www.linkedin.com/in/maxamadeothomas">
-              <i class="fa fa-linkedin fa-lg"></i>
-          </a>
-          <a target="_blank" href="mailto:maxamadeothomas@gmail.com">
-              <i class="fa fa-google fa-lg"></i>
-          </a>
-          
+        <div class="content-top">        
+          <h1>My name is Amadeo </h1>
+          <h3>I like to make websites.</h3>
         </div>
         <div class="buttons">
           <div class="button-container">
-              <a href="#" class="activate-modal"><img class="individual-button" src="buttons/Button_about.png"></a>
+              <a href="#" class="activate-modal" name="about-window"><img class="individual-button" src="buttons/Button_about.png"></a>
           </div>
           <div class="button-container">
-              <a href="#" class="activate-modal"><img class="individual-button" src="buttons/Button_contact.png"></a>
+              <a href="#" class="activate-modal" name="contact-window"><img class="individual-button" src="buttons/Button_contact.png"></a>
           </div>
           <div class="button-container">
               <a href="#" class="activate-modal" name="projects-window"><img class="individual-button" src="buttons/Button_projects.png"></a>
           </div>
           <div class="button-container">
-            <a href="#" class="activate-modal"><img class="individual-button" src="buttons/Button_resume.png">
+            <a href="#" class="activate-modal" name="resume-window"><img class="individual-button" src="buttons/Button_resume.png">
             </a>     
           </div>
 
@@ -55,8 +45,29 @@
 
   <div id="dimmer" class="close-modal"></div>
 
-  <div class="modal-window" id="projects-window">
+  <div class="modal-window" id="about-window">
+    <p></p>
+  </div>
 
+  <div class="modal-window" id="contact-window">
+    <div class="icons">
+      <a target="_blank" href="https://github.com/amadeot">
+          <i class="fa fa-github fa-lg"></i>
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/maxamadeothomas">
+          <i class="fa fa-linkedin fa-lg"></i>
+      </a>
+      <a target="_blank" href="mailto:maxamadeothomas@gmail.com">
+          <i class="fa fa-google fa-lg"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="modal-window" id="resume-window">
+    <object id="resume" data="./MaxAmadeoThomasResume.pdf" type="application/pdf"height="700"></object>
+  </div>
+
+  <div class="modal-window" id="projects-window">
     <div class="project-4">
       <div class="project-pic-container">
         <img class="project-pic" src="./thumbnails/project4.png">

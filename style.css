@@ -1,8 +1,28 @@
+@font-face{
+  font-family: Industria;
+  src: url("./font/IndustriaLTStd-Solid.otf") format("opentype");
+}
+
+h1{
+  font-size: 50px;
+}
+
+h3{
+  font-size: 25px; 
+}
+
+a{
+  color: black;
+}
+
+body{
+  font-family: 'Industria';
+}
+
 .content-wrapper{
   position: relative;
   width: 100%;
 }
-
 .background-container{
   top: 0;
   left: 0;
@@ -22,9 +42,8 @@
 
 .main-content{
   position: absolute;
-  top: 50px;
-  left: 50px;
-  text-indent: 50px;
+  top: 20px;
+  left: 60px;
   
 }
 
@@ -48,12 +67,19 @@
   color: black;
   z-index: 2;
   padding: 50px;
-  border: 1px solid blue;
+  border-radius: 10px;
   background: grey;
   width: 60%;
   height: 60%;
   overflow: auto;
   padding: 5px;
+  font-family: helvetica;
+}
+
+#resume{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .project-pic{
