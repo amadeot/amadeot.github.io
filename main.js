@@ -1,7 +1,4 @@
-console.log('hire me pls');
-
 $(document).ready(function(){
-  console.log('ready')
   var window_width = $(window).width();
   var window_height = $(window).height();
   $('.modal-window').each(function(){
