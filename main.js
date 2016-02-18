@@ -8,12 +8,10 @@ $(document).ready(function(){
     var left = (window_width - modal_width)/2;
     $(this).css({'top':top, 'left':left});
   });
-  $('a').on('click', function(event){
+  $('a.activate-modal').on('click', function(event){
     event.preventDefault()
   });
   $('.activate-modal').on('click', function(){
-    console.log('hi')
-    // console.log(this.name)
     showModal(this);
   });
   $('.close-modal').on('click', function(){
@@ -21,15 +19,21 @@ $(document).ready(function(){
   });
   backgroundCounter = 1
   setInterval(cycleBackgrounds, 5000)
-
+  $(".indiv-project").mouseenter(
+    function(event) {
+      showDescription(event);
+    }
+  );
+  $(".project-bod").mouseleave(
+    function(event){
+      hideDescription(event)
+    })
 });
 
 var showModal = function(modal){
-  console.log(modal.name)
   $('#dimmer').css({'display':'block', opacity: 0});
   $('#dimmer').fadeTo(500,0.8);
   $('#'+modal.name).fadeIn(500)
-
 }
 
 var hideModal = function(){
@@ -44,4 +48,15 @@ var cycleBackgrounds = function(){
     backgroundCounter++
   }
   $('#background').attr('src', "./backgrounds/background"+backgroundCounter+".jpg")
+}
+
+var showDescription = function(event){
+  console.log(event.target)
+  $('[name="'+event.target.id+'"]').show()
+}
+
+var hideDescription = function(event){
+  console.log(event.target)
+  $('[name="'+event.target.id+'"]').hide()
+
 }

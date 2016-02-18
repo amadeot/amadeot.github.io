@@ -46,20 +46,34 @@
   <div id="dimmer" class="close-modal"></div>
 
   <div class="modal-window" id="about-window">
-    <p>I'm a fullstack web developer. I love balancing multiple projects, and am always looking to learn new things and help people around me. My favorite question is "How can I help?" When I'm not making websites and trying to teach myself new techniques, I enjoy cooking, photography, and playing strategy games. </p>
+    <div class="about-content">
+      <p class="about-text">I'm a fullstack web developer. I love balancing multiple projects, and am always looking to learn new things and help the people around me. My favorite question is "How can I help?" When I'm not making websites and trying to teach myself new techniques, I enjoy cooking, photography, and playing strategy games. 
+      </p>
+    </div>
   </div>
 
   <div class="modal-window" id="contact-window">
-    <div class="icons">
-      <a target="_blank" href="https://github.com/amadeot">
-          <i class="fa fa-github fa-lg"></i>
-      </a>
-      <a target="_blank" href="https://www.linkedin.com/in/maxamadeothomas">
-          <i class="fa fa-linkedin fa-lg"></i>
-      </a>
-      <a target="_blank" href="mailto:maxamadeothomas@gmail.com">
-          <i class="fa fa-google fa-lg"></i>
-      </a>
+    <div class="contact-inside">
+      <div class="icons">
+        <div class="link">
+          <a target="_blank" href="https://github.com/amadeot">
+              <i class="fa fa-github fa-lg"></i>
+              <p>Github</p>
+          </a>
+        </div>
+        <div class="link"> 
+          <a target="_blank" href="https://www.linkedin.com/in/maxamadeothomas">
+              <i class="fa fa-linkedin fa-lg"></i>
+              <p>LinkedIn</p>
+          </a>
+        </div>
+        <div class="link">
+          <a target="_blank" href="mailto:maxamadeothomas@gmail.com">
+              <i class="fa fa-google fa-lg"></i>
+              <p>Email</p>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -68,45 +82,52 @@
   </div>
 
   <div class="modal-window" id="projects-window">
-    <div class="project-4">
-      <div class="project-pic-container">
-        <img class="project-pic" src="./thumbnails/project4.png">
+    <div class="projects-container">
+      <div class="projects-desc">
+        <h1>Below is a gallery of completed projects: Scroll down to see more.</h1>
       </div>
-      <div class="project-hot-bod">
-        <h3>Dungeons and Dragons Character Generator</h3>
-        <p>I created a dynamic website using a full MEAN stack using Mongoose to give my database schemas. The purpose of this app is to make simple the process of creating a new DnD character for someone who has never played before, and give them enough knowledge that they will be able to play.</p>
-      </div>
-    </div>  
+      <div class="indiv-project">
+        <div class="project-pic-container">
+          <img class="project-pic" src="./thumbnails/project4.png" id="4">
+        </div>
+        <div class="project-bod" name="4">
+          <h3>Dungeons and Dragons Character Generator</h3>
+          <p>I created a dynamic website using a full MEAN stack using Mongoose to give my database schemas. The purpose of this app is to make simple the process of creating a new DnD character for someone who has never played before, and give them enough knowledge that they will be able to play.</p>
+          <a href="https://calm-spire-11094.herokuapp.com/">View Live</a>
+        </div>
+      </div>  
 
-    <div class="project-3">
-      <div class="project-pic-container">
-        <img class="project-pic" src="./thumbnails/project3.png">
-      </div>
-      <div class="project-hot-bod">
-        <h3>Attendance Tracker</h3>
-        <p>As part of a group of four using SCRUM and pair programming, we created a website for tracking attendance in a class. Built with ruby on rails, it includes API calls to send and recieve texts and emails so that students can let the app know they will be late in advance, and get notifications when they are accruing too many absences. </p>
-      </div>
-    </div>    
+      <div class="indiv-project">
+        <div class="project-pic-container">
+          <img class="project-pic" src="./thumbnails/project3.png" id="3">
+        </div>
+        <div class="project-bod" name="3">
+          <h3>Attendance Tracker</h3>
+          <p>As part of a group of four using SCRUM and pair programming, we created a website for tracking attendance in a class. Built with ruby on rails, it includes API calls to send and recieve texts and emails so that students can let the app know they will be late in advance, and get notifications when they are accruing too many absences. </p>
+          <a href="https://floating-mesa-1461.herokuapp.com/">View Live</a>
+        </div>
+      </div>    
 
-    <div class="project-2">
-      <div class="project-pic-container">
-        <img class="project-pic" src="./thumbnails/project2.png">
-      </div>
-      <div class="project-hot-bod">
-        <h3>Delivery Database</h3>
-        <p>I created a wiki-style forum in ruby with sinatra and postresql for delivery bikers in New York to give each other advice and warnings about certain buildings.</p>
-      </div>
-    </div>    
+      <div class="indiv-project">
+        <div class="project-pic-container">
+          <img class="project-pic" src="./thumbnails/project2.png" id="2">
+        </div>
+        <div class="project-bod" name="2">
+          <h3>Delivery Database</h3>
+          <p>I created a wiki-style forum in ruby with sinatra and postresql for delivery bikers in New York to give each other advice and warnings about certain buildings.</p>
+          <a href="https://tranquil-bayou-7004.herokuapp.com/">View Live</a>
+        </div>
+      </div>    
 
-    <div class="project-1">
-      <div class="project-pic-container">
-        <img class="project-pic" src="./thumbnails/project1.png">
-      </div>
-      <div class="project-hot-bod">
-        <h3>GOAT CLICKER</h3>
-        <p>This is the first project I built. It is a Simon Memorization game with screaming goats. Built entirely with HTML, CSS, and Javascript with Jquery</p>
-      </div>
-    </div>    
+      <div class="indiv-project">
+          <img class="project-pic" src="./thumbnails/project1.png" id="1">
+        <div class="project-bod" name="1">
+          <h3>GOAT CLICKER</h3>
+          <p>This is the first project I built. It is a Simon Memorization game with screaming goats. Built entirely with HTML, CSS, and Javascript with Jquery</p>
+        </div>
+      </div>  
+
+    </div> 
   </div>
 </body>
 </html>
