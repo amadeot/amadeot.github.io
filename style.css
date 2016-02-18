@@ -156,6 +156,11 @@ html{
 
 /*resume section*/
 
+#resume-window{
+  width: 80%;
+  height: 80%;
+}
+
 #resume{
   width: 100%;
   margin: 0 auto;
