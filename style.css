@@ -149,9 +149,23 @@ html{
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.72);
+  background: rgba(0, 0, 0, 0.9);
   display: none;
   z-index: 1000000;
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+.project-bod h3{
+  font-size: 50px;
+}
+
+.project-bod p{
+  font-size: 40px;
+}
+
+.project-bod a{
+  color: white;
 }
 
 /*resume section*/

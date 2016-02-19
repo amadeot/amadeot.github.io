@@ -24,7 +24,7 @@ $(document).ready(function(){
       showDescription(event);
     }
   );
-  $(".project-bod").mouseleave(
+  $(".indiv-project").mouseleave(
     function(event){
       hideDescription(event)
     })
@@ -56,6 +56,7 @@ var showDescription = function(event){
 }
 
 var hideDescription = function(event){
+  console.log("bye falicia")
   console.log(event.target)
   $('[name="'+event.target.id+'"]').hide()
 
