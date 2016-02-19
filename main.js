@@ -51,13 +51,11 @@ var cycleBackgrounds = function(){
 }
 
 var showDescription = function(event){
-  console.log(event.target)
-  $('[name="'+event.target.id+'"]').show()
+  $('[name="'+event.target.id+'"]').fadeIn(300)
 }
 
 var hideDescription = function(event){
   console.log("bye falicia")
-  console.log(event.target)
-  $('[name="'+event.target.id+'"]').hide()
+  $('.project-bod').fadeOut(300)
 
 }
