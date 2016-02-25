@@ -180,3 +180,14 @@ html{
   margin: 0 auto;
   text-align: center;
 }
+/*media query*/
+@media (max-width: 600px) {
+  .background-container, #my-picture {
+    display: none;
+  }
+  .main-content{
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
