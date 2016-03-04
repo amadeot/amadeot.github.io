@@ -182,13 +182,17 @@ html{
 }
 /*media query*/
 @media (max-width: 500px) {
-  .background-container, #my-picture,  {
+  .background-container, #my-picture, .resume-container {
     display: none;
   }
   .main-content{
     position: absolute;
     left: 0;
     top: 0;
+  }
+
+  .project-bod{
+    padding: 0px;
   }
 
   .project-bod h3{
