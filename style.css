@@ -181,8 +181,8 @@ html{
   text-align: center;
 }
 /*media query*/
-@media (max-width: 600px) {
-  .background-container, #my-picture {
+@media (max-width: 500px) {
+  .background-container, #my-picture,  {
     display: none;
   }
   .main-content{
@@ -190,4 +190,13 @@ html{
     left: 0;
     top: 0;
   }
+
+  .project-bod h3{
+    font-size: 16px;
+  }
+
+  .project-bod p{
+    font-size: 12px;
+  }
+
 }
