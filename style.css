@@ -43,6 +43,7 @@ html{
   max-height: 100vh;
   position: absolute;
   right: 0px;
+  top: 0px;
   z-index: -100;
 }
 
